@@ -2,7 +2,7 @@
 
 - ip_loadbalance_random.py: código para o balanceamento de carga aleatório
 - ip_loadbalance_rr: código para balanceamento de carga com round robin.
-  -Exemplo de uso: pox/pox.py log.level --DEBUG misc.ip_loadbalancer_random --ip=10.0.1.1 --servers=10.0.0.2,10.0.0.3,10.0.0.4,10.0.0.5 --dpid=00-00-00-00-00-04
+  Exemplo de uso: pox/pox.py log.level --DEBUG misc.ip_loadbalancer_random --ip=10.0.1.1 --servers=10.0.0.2,10.0.0.3,10.0.0.4,10.0.0.5 --dpid=00-00-00-00-00-04
 
   Importante passar o caminho certo do arquivo, nesse caso está dentro da pasta misc, dentro concontrolador pox.
 
